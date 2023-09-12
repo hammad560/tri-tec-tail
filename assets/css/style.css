@@ -1,0 +1,121 @@
+.text-decoration-none:hover{
+    color: #44bd32;
+}
+.img-head-logo
+{
+    width: 200px;
+}
+.main-banner-of-site{
+    background: url('../images/main-bannar.png');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.contend-part
+{
+    padding-top: 200px;
+}
+.quote-butn-hvor:hover{
+    background-color: #1B1464;
+}
+.icon-button
+{
+    background-color: #44bd32;
+    border-radius: 0%;
+    padding: 5px 10px 5px 10px;
+}
+#Three-animation-bars
+{
+    padding-top: 130px;
+}
+.paragraph-text
+{
+    padding-left: 85px;
+    font-size: 20px;
+}
+.hvr-crd-links:hover{
+    color: #44bd32;
+}
+.text-heading
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px 0px 20px;
+}
+.tex
+{
+    padding-top: 60px;
+}
+.content-wrap
+{
+    /* position: relative; */
+    bottom:60px;
+    left: 70px;
+}
+.img {
+    z-index: 0; 
+}
+.text-over-img {
+    z-index:1;
+    font-size: 1.2em;
+    margin-top: -100px;
+}
+.main-banner-about-poprtion
+{
+    padding-bottom: 40px;
+}
+#Style-subscribe-part
+{
+    background-color: #34495e;
+    padding: 50px 20px 50px 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.main-banner-of-footer
+{
+    background-color: black;
+}
+.footer-list-styl
+{
+    list-style: square;
+    color: red;
+}
+.main-toggle-part
+{
+    padding: 30px 10px 30px 10px;
+}
+.spn-pad
+{
+    padding-left: 40px;
+}
+.book-icon
+{
+    color: #44bd32;
+}
+.back-pic-about-portion
+{
+    position: absolute;
+}
+.main-banner-about-poprtion
+{
+    position: relative;
+    z-index: 5;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+/*
+.main-crd-col
+{
+    position: relative;
+}
+.crd-move-part
+{
+    position: absolute;
+    z-index: 3;
+}
+*/
+#bkg-img1
+{
+    background-image: url('https://tritechteal.com/public/uploads/service-10.png');
+    width: 354px;
+    background-repeat: no-repeat;
+}
