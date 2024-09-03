@@ -1,3 +1,10 @@
+.nav-link {
+
+}
+.navbar-toggler {
+    background-color: #f8f9fa; /* Light background color for the button */
+    border: 1px solid #ccc;    /* Border color */
+}
 .text-decoration-none:hover{
     color: #44bd32;
 }
@@ -9,27 +16,36 @@
     background: url('../images/main-bannar.png');
     background-repeat: no-repeat;
     background-size: cover !important;
+    /* background-position: center; */
+    height: 850px;
 }
+
 .contend-part
 {
-    padding-top: 200px;
+    padding-top: 44px;
+    margin: 27px;
+}
+.contend-part p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .quote-butn-hvor:hover{
     background-color: #1B1464;
 }
 .icon-button
 {
-    background-color: #44bd32;
-    border-radius: 0%;
+    background-color: green;
+    border-radius: 10px;
     padding: 5px 10px 5px 10px;
+    margin-top: 30px;
 }
 #Three-animation-bars
 {
-    padding-top: 130px;
+    padding-top: 200px;
+    margin-top: 190PX;
 }
 .paragraph-text
 {
-    padding-left: 85px;
+    padding-left: 65px;
     font-size: 20px;
 }
 .hvr-crd-links:hover{
@@ -50,14 +66,6 @@
     /* position: relative; */
     bottom:60px;
     left: 70px;
-}
-.img {
-    z-index: 0; 
-}
-.text-over-img {
-    z-index:1;
-    font-size: 1.2em;
-    margin-top: -100px;
 }
 .main-banner-about-poprtion
 {
@@ -102,20 +110,15 @@
     padding-left: 60px;
     padding-top: 100px;
 }
-/*
-.main-crd-col
-{
-    position: relative;
-}
+
 .crd-move-part
 {
     position: absolute;
-    z-index: 3;
+    bottom: 10px;
 }
-*/
-#bkg-img1
+/* #bkg-img1
 {
     background-image: url('https://tritechteal.com/public/uploads/service-10.png');
     width: 354px;
     background-repeat: no-repeat;
-}
+} */

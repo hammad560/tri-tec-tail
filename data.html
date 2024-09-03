@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -12,190 +12,221 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+<style>
+
+</style>
 
 <body>
+    <div class="container-fluid">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/logo.png" alt="header-image" class="img-head-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-        <a class="navbar-brand" href="#">
-            <img src="../assets/images/logo.png" alt="header-image" class="img-head-logo">
-        </a>
-        <button class="navbar-toggler text-bg-light" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto bg-light">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME+</a>
+                    </li>&nbsp 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICE+</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO+</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG+</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT+</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CAREERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT+</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ">
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">HOME+</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">SERVICE+</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">PORTFOLIO+</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">BLOG+</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">ABOUT+</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">CAREERS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">CONTACT+</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <!-- start of main bannar and animation bar portion -->
 
-    <!-- end of navbar -->
-    <div class="container-fluid main-banner-of-site">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="contend-part ">
-                    <div>
-                        <h4 class="fw-bold  ml-3">WEB DESIGNING</h4>
+        <div class="main-banner-of-site">
+            <div class="">
+                <div class="row">
+                    <div class="col-md-">
+                        <div class="contend-part mt-3">
+                            <div>
+                                <h1 class="fw-bold text-light text-center">WEB DESIGNING</h1>
+                            </div>
+                            <div class="img-paragraph fw-bold fs-4">
+                                <div class="text-center">Tritechteal create visual designfor humans </div>
+                                <div class="text-center">and make sure thy would understand</div>
+                                <div class="text-center">at first look.</div>
+                            </div>
+                            <div class="text-center mt-4 pe-5 ">
+                                <button class="btn btn-success ms-5  mt-4 quote-butn-hvor">
+                                    <a href="" class="text-decoration-none text-light fw-bold ">REQUEST A QUOTE</a>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <p class="fw-bold text-light">
-                        Tritechteal create visual designfor humans <br>
-                        and make sure thy would understand <br>
-                        at first look.
-                    </p>
-                    <div class="text-center mt-5" style="margin-top: 30px;">
-                        <a href="" class="text-decoration-none btn btn-success text-light fw-bold ">REQUEST A QUOTE</a>
+                    <div class="col-md-4 offset-7"></div>
+                </div>
+                <div class="row" id="Three-animation-bars">
+                    <div class="col-md-3">
+                        <div class=" icon-button ">
+                            <img src="../assets/images/card/why-choose-9.png" class="ms-4 mt-3" alt="imag"
+                                style="width: 40px;">
+                            <span class="text-heading text-light  ">Initial</span>
+                            <p class="paragraph-text text-light fs-6 fw-bold">Define a strategy</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class=" icon-button ">
+                            <img src="../assets/images/card/why-choose-10.png" class="ms-4 mt-3" alt="imag"
+                                style="width: 40px;">
+                            <span class="ms-3 text-light fs-2 ">Implementation</span>
+                            <p class="paragraph-text text-light fs-6 fw-bold">Orchestrate the developement</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class=" icon-button ">
+                            <img src="../assets/images/card/why-choose-11.png" class="ms-4 mt-3" alt="imag"
+                                style="width: 40px;">
+                            <span class="ms-3 text-light fs-2 ">Complete</span>
+                            <p class="paragraph-text text-light fs-6 fw-bold">Evaluate and moniter</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
-        <!--  -->
-        <div class="container">
-            <div class="row" id="Three-animation-bars">
-                <div class="col-md-4">
-                    <div class=" icon-button ">
-                        <img src="../assets/images/card/why-choose-9.png" class="ms-4 mt-3" alt="imag"
-                            style="width: 40px;">
-                        <span class="text-heading text-light  ">Initial</span>
-                        <p class="paragraph-text text-light fs-6 fw-bold">Define a strategy</p>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-                    <div class=" icon-button ">
-                        <img src="../assets/images/card/why-choose-10.png" class="ms-4 mt-3" alt="imag"
-                            style="width: 40px; ">
-                        <span class="text-heading  text-light ">Implementation</span>
-                        <p class="paragraph-text text-light fs-6 fw-bold">The developement</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class=" icon-button ">
-                        <img src="../assets/images/card/why-choose-11.png" class=" mt-3" alt="imag"
-                            style="width: 40px;">
-                        <span class="text-heading  text-light ">Complete</span>
-                        <p class="paragraph-text text-light fs-6 fw-bold">Evaluate and moniter</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <!-- End of main bannar and animation bar portion -->
+
         <!-- start of Middle content -->
 
         <div class="content">
             <div class="tex">
                 <h5 class="text-center text-success">TOP SERVICES</h5>
-                <!-- <p class="text-center fw-bold fs-1">Services of Tritechteal Technologies</p> -->
-                 <h2 class="text-center fw-bold fs-1">Services of Tritechteal Technologies</h2>
+                <p class="text-center fw-bold fs-1">Services of Tritechteal Technologies</p>
             </div>
         </div>
 
         <!-- End of Middle content -->
-        <!-- this is about page -->
-        <div class="container mt-5">
+
+        <!--start-Card portion -->
+
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 mt-3">
+                <div class="col-lg-4 col-6">
                     <div class="main-crd-col" style="position: relative;">
-                        <img src="../assets/images/service-10.png" alt="" style="width: 344px;">
+                        <img src="../assets/images/service-10.png" alt="" style="width: 384px;">
                         <div class="crd-move-part" id="index">
-                            <img src="../assets/images/card/hand.png" class="" alt="" style="width: 70px;">
-                            <a href="#" class=" text-decoration-none fw-bold fs-6 text-light">Web Design and
+                            <img src="../assets/images/card/hand.png" class="bg-success" alt="" style="width: 70px;">
+                            <a href="#" class=" text-decoration-none fw-bold fs-6 ">Web Design and
                                 Development</a><br>
-                            <span class="ml-5 mb-5 pl-4 text-light">Business, eCommerce, B2B, B2C</span>
+                            <span class="mx-5">Business, eCommerce, B2B, B2C</span>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4">
                     <div class="main-crd-col">
-                        <img src="../assets/images/service-11.png" alt="" style="width: 344px;">
+                        <img src="../assets/images/service-11.png" alt="" style="width: 354px;">
                         <div class="crd-move-part ">
-                            <img src="../assets/images/card/hand.png" alt="" class="" style="width: 70px;">
-                            <a href="#" class=" text-decoration-none fw-bold fs-6 text-light">Mobile App Development </a><br>
-                            <span class="ml-5 mb-5 pl-4 text-light">Native,Andriod.IOS,Hybird</span>
+                            <img src="../assets/images/card/hand.png" alt="" class="bg-success" style="width: 70px;">
+                            <a href="#" class=" text-decoration-none fw-bold fs-6">Mobile App Development </a><br>
+                            <span class="mb-5">Native,Andriod.IOS,Hybird</span>
                         </div>
                     </div>
 
                 </div>
-                <div class=" col-md-4 mt-3">
+                <div class=" col-md-4">
                     <div class="main-crd-col">
-                        <img src="../assets/images/service-12.png" alt="" style="width: 344px;">
+                        <img src="../assets/images/service-12.png" alt="" style="width: 354px;">
                         <div class="crd-move-part">
-                            <img src="../assets/images/card/hand.png" class="" alt="" style="width: 70px;">
-                            <a href="#" class=" text-decoration-none fw-bold fs-5 text-light">Cloud Implementation</a><br>
-                            <span class="spn-pad ml-5 mb-5 pl-4 text-light">AWS, Azure, Google</span>
+                            <img src="../assets/images/card/hand.png" class="bg-success" alt="" style="width: 70px;">
+                            <a href="#" class=" text-decoration-none fw-bold fs-5">Cloud Implementation</a><br>
+                            <span class="spn-pad">AWS, Azure, Google</span>
                         </div>
                     </div>
 
                 </div>
 
-</div>
-</div>
-        <!-- services portion -->
+                <div class="col-md-4">
 
-        <section>
-            <div class="text-center py-5">
-                <button class="btn btn-success">
-                    <a href="#" class="text-decoration-none text-light "> View All Services </a>
-                </button>
+                    <div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <!-- <div class="crd-move-part ">
+                        <img src="../assets/images/card/hand.png" alt="" class="bg-success" style="width: 70px;">
+                        <a href="#" class=" text-decoration-none fw-bold fs-6">Mobile App Development </a><br>
+                        <span class="mb-5">Native,Andriod.IOS,Hybird</span>
+                    </div> -->
+                </div>
+                <div class="col-md-4">
+                    <!-- <div class="crd-move-part">
+                        <img src="../assets/images/card/hand.png" class="bg-success" alt="" style="width: 70px;">
+                        <a href="#" class=" text-decoration-none fw-bold fs-5">Cloud Implementation</a><br>
+                        <span class="spn-pad">AWS, Azure, Google</span>
+                    </div> -->
+                </div>
             </div>
+        </div>
+        <!-- Button start-->
 
-            <!-- Button End -->
+        <div class="text-center py-5">
+            <button class="btn btn-success">
+                <a href="#" class="text-decoration-none text-light "> View All Services </a>
+            </button>
+        </div>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6 ">
-                        <div>
-                            <img src="../assets/images/tritechteal-offer.jpg" alt="image"
-                                style="height: 650px; width: 333px;">
-                        </div>
-                    </div>
-                    <div class="col-md-6 ">
-                        <div class="back-pic-about-portion">
-                            <img src="../assets/images/tritechteal-offer-right.png" alt=""
-                                style="height: 650px; width: 333px;">
-                        </div>
-                        <div class="main-banner-about-poprtion">
-                            <h2 class="text-light fw-bold">Software Development <br> Company- Join Today</h2>
-                            <p class="text-light">Tritechteal is a Pakistan based web & mobile design and <br>
-                                development company that provides full range of solutions <br>
-                                for web & mobile including logo design, website design, user <br>
-                                interface design, mobile app design, frontend development, <br>
-                                backend development and mobile native(iOS + Android) <br>
-                                development.</p><br>
-                            <button class="btn btn-success"><a href="#"
-                                    class="text-decoration-none fw-bold text-light">Request
-                                    A Quote</a></button>
-                        </div>
+        <!-- Button End -->
+
+        <div class="">
+            <div class="row">
+                <div class="col-6 col-md-0">
+                    <div>
+                        <img src="../assets/images/tritechteal-offer.jpg" alt="image"
+                            style="height: 683px; width: 497px;">
                     </div>
                 </div>
-            </div><br>
-
-        </section>
+                <div class="col-md-6 ">
+                    <div class="back-pic-about-portion">
+                        <img src="../assets/images/tritechteal-offer-right.png" alt=""
+                            style="height: 683px; width: 497px;">
+                    </div>
+                    <div class="main-banner-about-poprtion">
+                        <h2 class="text-light fw-bold">Software Development <br> Company- Join Today</h2>
+                        <p class="text-light">Tritechteal is a Pakistan based web & mobile design and <br>
+                            development company that provides full range of solutions <br>
+                            for web & mobile including logo design, website design, user <br>
+                            interface design, mobile app design, frontend development, <br>
+                            backend development and mobile native(iOS + Android) <br>
+                            development.</p><br>
+                        <button class="btn btn-success"><a href="#"
+                                class="text-decoration-none fw-bold text-light">Request
+                                A Quote</a></button>
+                    </div>
+                </div>
+            </div>
+        </div><br>
 
         <!-- Stat Request a quote portion -->
 
@@ -204,9 +235,9 @@
 
                 <div class="row">
                     <div class="col-md-6 bg-secondary">
-                        <h2 class="py-5 text-light">FAQ</h2>
+                        <h2 class="py-5">FAQ</h2>
                         <div class="Left-banner-services">
-                            <button type="button" class="btn btn-info form-control text-start  text-light fw-bold"
+                            <button type="button" class="btn btn-info form-control text-start p-3 text-light fw-bold"
                                 data-toggle="collapse" data-target="#demo">Valuable Advice</button>
                             <div id="demo" class="collapse text-light">
                                 We take the consultation process very seriously and make sure we give you our best
@@ -214,7 +245,7 @@
                             </div>
                         </div><br>
                         <div class="Left-banner-services">
-                            <button type="button" class="btn btn-info form-control text-start  text-light fw-bold"
+                            <button type="button" class="btn btn-info form-control text-start p-3 text-light fw-bold"
                                 data-toggle="collapse" data-target="#demo1">Clean Code</button>
                             <div id="demo1" class="collapse text-light">
                                 You get robust and reliable solutions written with clean code and best practices.
@@ -222,28 +253,28 @@
                         </div><br>
 
                         <div class="Left-banner-services">
-                            <button type="button" class="btn btn-info form-control text-start  text-light fw-bold"
+                            <button type="button" class="btn btn-info form-control text-start p-3 text-light fw-bold"
                                 data-toggle="collapse" data-target="#demo2">Devoted Project Management</button>
                             <div id="demo2" class="collapse text-light">
                                 From initial scoping to the final QA, our flawless project management gives us an edge
                             </div>
                         </div><br>
                         <div class="Left-banner-services">
-                            <button type="button" class="btn btn-info form-control text-start  text-light fw-bold"
+                            <button type="button" class="btn btn-info form-control text-start p-3 text-light fw-bold"
                                 data-toggle="collapse" data-target="#demo3">Timely Delivery</button>
                             <div id="demo3" class="collapse text-light">
                                 Superior processes and agile practices allow us to deliver on time, every time.
                             </div>
                         </div><br>
                         <div class="Left-banner-services">
-                            <button type="button" class="btn btn-info form-control text-start text-light fw-bold"
+                            <button type="button" class="btn btn-info form-control text-start p-3 text-light fw-bold"
                                 data-toggle="collapse" data-target="#demo4">Effective Communication</button>
                             <div id="demo4" class="collapse text-light">
                                 We make dedicated efforts to ensure nothing is lost between translations and time zones.
                             </div>
                         </div><br>
-                        <div class="Left-banner-services mb-3">
-                            <button type="button" class="btn btn-info form-control text-start text-light fw-bold"
+                        <div class="Left-banner-services">
+                            <button type="button" class="btn btn-info form-control text-start p-3 text-light fw-bold"
                                 data-toggle="collapse" data-target="#demo5">Dedicated Experts</button>
                             <div id="demo5" class="collapse text-light">
                                 With more than 20 experts in technology, we deliver unmatched quality.
@@ -252,14 +283,15 @@
                     </div>
                     <div class="col-md-6">
                         <div>
-                            <img src="../assets/images/tritechteal-faq.png" alt="questioneria image"
-                                style="height: 650px; width: 333px;">
+                            <img src="../assets/images/tritechteal-faq.png" alt="questioneria image">
                         </div>
                     </div>
 
                 </div>
             </div>
         </div> <br><br>
+
+        <!-- Latest Blog Portion -->
 
         <div class="middle-text">
 
@@ -275,7 +307,7 @@
 
         <div class="container crd-portion">
             <div class="row">
-                <div class="col-md-4 mt-2">
+                <div class="col-md-4">
                     <div class="card">
                         <img src="../assets/images/news-12.png" class="card-img-top" alt="code-image">
                         <div class="card-body">
@@ -304,7 +336,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-2">
+                <div class="col-md-4">
                     <div class="card">
                         <img src="../assets/images/news-11.png" class="card-img-top" alt="code-image">
                         <div class="card-body">
@@ -334,7 +366,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-2">
+                <div class="col-md-4">
                     <div class="card">
                         <img src="../assets/images/news-9.png" class="card-img-top" alt="code-image">
                         <div class="card-body">
@@ -366,6 +398,11 @@
                     </div>
                 </div>
             </div> <br><br>
+
+            <!-- End Card Portion -->
+
+            <!-- start of Subscriber Form Portion -->
+
             <div class="row" id="Style-subscribe-part">
                 <div class="col-md-6">
                     <div>
@@ -376,7 +413,7 @@
                     <form action="">
                         <div class="input-group">
                             <input type="email" class="form-control emil-form" placeholder="Enter your Email" required>
-                            <button type="submit" class="btn btn-group bg-success ">Subscribe</button>
+                            <button type="submit" class="btn btn-group bg-success p-2">Subscribe</button>
                         </div>
                     </form>
                 </div>
@@ -407,8 +444,7 @@
                     </div>
                     <div class="col-md-4"><br>
                         <div>
-                            <h3 class="text-light" style="text-decoration: underline; text-decoration-color: red;">Quick
-                                Links</h3>
+                            <h3 class="text-light">Quick Links</h3>
                         </div>
                         <div>
                             <ul class="footer-list-styl">
@@ -421,9 +457,7 @@
                         </div>
                     </div>
                     <div class="col-md-4"><br>
-                        <h3 class="text-light" style="text-decoration: underline; text-decoration-color: red;">ADDRESS
-                        </h3>
-
+                        <h3 class="text-light">ADDRESS</h3>
                         <div>
                             <i class="flaticon-location"></i>
                             <div class="text-light">Office #01, Bhatti Rajput Plaza, Main Service Rd E,<br> Gangal East
@@ -431,26 +465,26 @@
                         </div><br>
                         <div>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-decoration-none text-light"><i
-                                            class="fas fa-map-marker-alt"></i> +92 (300) 2528517</a></li>
-                                <li><a href="#" class="text-decoration-none text-light"><i class="fas fa-phone"></i> +92
-                                        (345) 5119056</a></li>
-                                <li><a href="#" class="text-decoration-none text-light"><i class="fas fa-envelope"></i>
-                                        +92 (51) 2156473</a></li>
+                                <li><a href="#" class="text-decoration-none text-light">+92 (300) 2528517</a></li>
+                                <li><a href="#" class="text-decoration-none text-light">+92 (345) 5119056</a></li>
+                                <li><a href="#" class="text-decoration-none text-light">+92 (51) 2156473</a></li>
                             </ul>
-
                         </div>
                         <div>
                             <a href="#" class="text-decoration-none text-light">info@tritechteal.com</a>
                         </div>
                     </div>
                 </div>
-                <hr style="border: 1px solid aliceblue;">
+                <hr style="color: #f5f6fa;">
                 <div class="footer text-light py-4">
                     Copyright © 2023-2024. All Rights Reserved by TriTechTeal Technologies.
                 </div>
             </div>
         </div>
+    </div>
 </body>
+
+
+
 
 </html>
